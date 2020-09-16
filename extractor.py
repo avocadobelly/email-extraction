@@ -27,4 +27,4 @@ with open('sample.txt') as f:
     #lambda denotes the start of an Inline function.
     decending_popular_domains = sorted(list_popular_domains, reverse=True, key=lambda email_pair: email_pair[1])
     print(decending_popular_domains)
-    
+
